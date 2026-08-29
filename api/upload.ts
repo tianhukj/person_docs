@@ -1,4 +1,4 @@
-import { supabaseAdmin, STORAGE_BUCKET, json, errorResponse, handleOptions } from './lib/supabaseAdmin';
+import { supabaseAdmin, STORAGE_BUCKET, json, errorResponse, handleOptions } from './lib/supabaseAdmin.js';
 
 export const config = { runtime: 'nodejs' };
 
