@@ -1,4 +1,4 @@
-import { json, handleOptions } from './lib/supabaseAdmin';
+import { json, handleOptions } from './lib/supabaseAdmin.js';
 
 export const config = { runtime: 'nodejs' };
 
