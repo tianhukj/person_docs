@@ -4,7 +4,7 @@ import {
   errorResponse,
   handleOptions,
   type ApiVerifyTaskWithPerson,
-} from '../lib/supabaseAdmin';
+} from '../lib/supabaseAdmin.js';
 
 export const config = { runtime: 'nodejs' };
 
